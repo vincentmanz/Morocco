@@ -1,0 +1,99 @@
+---
+title: "Medicines in the kitchen: A gender perspective of the ethnobotanical knowledge in Marrakshi households"
+description: |
+  Irene Teixidor-Toneu, Sara Elgadi, Hamza Zine, Ugo D’Ambrosio
+author:
+  - name: Vincent Manzanilla
+    url: https://github.com/vincentmanz
+    affiliation: BaseClear B.V / Datalabs
+date: "`r Sys.Date()`"
+output: distill::distill_article
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=TRUE}
+
+library(dplyr)
+library(hrbrthemes)
+library(ggplot2)
+library(viridis)
+```
+
+
+```{r import data}
+
+file <- read.csv("i-Marrakech_dataset.csv", sep=";")
+data <- file %>% select(Sex,N_Pl_total, Freq_cooking, Freq_cooking_scale ) %>% 
+  mutate(Sex, Sex = case_when(
+    Sex == "F" ~ "Female",
+    Sex == "M" ~ "Male"))
+
+```
+
+## General overview
+
+```{r nb plants per sex, layout="l-body-outset", fig.align="center", fig.width=12, fig.height=6}
+data %>%
+  ggplot( aes(x=Sex, y=N_Pl_total, fill=Sex)) +
+    geom_boxplot() +
+    scale_fill_viridis(discrete = TRUE, alpha=0.6) +
+    geom_jitter(color="black", size=0.9, alpha=0.9) +
+    theme_ipsum() +
+    theme(
+      legend.position="none",
+      plot.title = element_text(size=11)
+    ) +
+  ylab("Total Number of Plants") +
+  xlab("sex") +
+  ggtitle("Number of plants according to the gender - box plot")
+
+
+```
+
+
+## Freq_cooking
+
+```{r scatter plot, layout="l-body-outset", fig.align="center", fig.width=12, fig.height=6}
+
+data  %>% 
+  ggplot(aes(x=Freq_cooking, y = N_Pl_total, color=Sex)) + 
+  geom_point() + 
+  xlab("Cooking frequency") + 
+  ylab("Total Number of Plants") +
+  theme_ipsum() +
+  ggtitle("Number of plants according to the cooking frequency - scatter plot")
+ 
+
+```
+
+
+```{r scatter plot trend line, layout="l-body-outset", fig.align="center", fig.width=12, fig.height=6}
+
+data  %>% 
+  ggplot(aes(x=Freq_cooking, y = N_Pl_total, color=Sex)) + 
+  geom_point() +
+  xlab("Cooking frequency") + 
+  ylab("Total Number of Plants") +
+  theme_ipsum() +
+  geom_smooth(method = "lm") +
+  ggtitle("Number of plants according to the cooking frequency - scatter plot with trend lines")
+
+ 
+```
+
+## Freq_cooking_scale
+
+```{r freq scale, layout="l-body-outset", fig.align="center", fig.width=12, fig.height=6}
+data  %>% 
+  ggplot(aes(x=Freq_cooking_scale, y = N_Pl_total, color=Sex)) + 
+  geom_point() +
+  xlab("Cooking frequency") + 
+  ylab("Total Number of Plants") +
+  theme_ipsum() +
+ geom_smooth(method = "lm")+
+  ggtitle("Number of plants according to the cooking scale - scatter plot with trend lines")
+```
+
+
+
