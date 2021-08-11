@@ -8,15 +8,16 @@
 <br> \#\# Authors Irene Teixidor-Toneu1, Sara Elgadi2, Hamza Zine2,
 Vincent Manzanilla3, Ahmed Ouhammou2, Ugo D’Ambrosio4,5
 
-1 Natural History Museum, University of Oslo, Norway 2 Laboratory of
-Microbial Biotechnology, Agrosciences and Environment, Regional
-Herbarium ‘MARK’, Faculty of Sciences Semlalia, Cadi Ayyad University,
-Marrakech 40000, Morocco; <sara.elgadi@ced.uca.ma> (S.E.);
-<hamza.zine@edu.uca.ma> (H.Z.) 3 Baseclear BV, 2333 Leiden, Netherlands.
+1 Natural History Museum, University of Oslo, Norway  
+2 Laboratory of Microbial Biotechnology, Agrosciences and Environment,
+Regional Herbarium ‘MARK’, Faculty of Sciences Semlalia, Cadi Ayyad
+University, Marrakech 40000, Morocco; <sara.elgadi@ced.uca.ma> (S.E.);
+<hamza.zine@edu.uca.ma> (H.Z.)  
+3 Baseclear BV, 2333 Leiden, Netherlands.  
 4 Global Diversity Foundation (GDF), 37 St. Margaret’s Street,
-Canterbury CT1 2TU, Kent, UK 5 Etnobioﬁc Research Group- Universitat de
-Barcelona and Institut Botànic de Barcelona (IBB-CSIC-ICUB), Barcelona,
-Spain
+Canterbury CT1 2TU, Kent, UK  
+5 Etnobioﬁc Research Group- Universitat de Barcelona and Institut
+Botànic de Barcelona (IBB-CSIC-ICUB), Barcelona, Spain
 
 ## Abstract
 
