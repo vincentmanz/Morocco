@@ -46,7 +46,7 @@ Marrakech; Morocco; pharmacopeia; spices; women’s knowledge.
 <br>
 
 <p align="center">
-<img width="800" height="600" src="https://github.com/vincentmanz/Morocco/blob/master/Figure%201.png?raw=true">
+&lt;src=“<https://github.com/vincentmanz/Morocco/blob/master/Figure%201.png?raw=true>”&gt;
 </p>
 <center>
 **Figure 1.** Number of elicited items according to frequency of cooking
