@@ -35,5 +35,5 @@ Differences in knowledge about plants across genders are contingent to specific 
 </p>
 <center>
 
-**Figure 1.** Number of elicited items according to frequency of cooking (number of times that the participant prepares a meal per week) per men and women. Trends are based on the GLM with interactions (see full model and results in ESM4). 
+Figure 1. Number of elicited items according to frequency of cooking (number of times that the participant prepares a meal per week) per men and women. Trends are based on the GLM with interactions (see full model and results in ESM4). 
 </center>

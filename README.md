@@ -49,7 +49,7 @@ Marrakech; Morocco; pharmacopeia; spices; women’s knowledge.
 <img src="https://github.com/vincentmanz/Morocco/blob/master/Figure%201.png?raw=true">
 </p>
 <center>
-**Figure 1.** Number of elicited items according to frequency of cooking
+Figure 1. Number of elicited items according to frequency of cooking
 (number of times that the participant prepares a meal per week) per men
 and women. Trends are based on the GLM with interactions (see full model
 and results in ESM4).

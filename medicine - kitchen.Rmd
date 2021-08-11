@@ -113,7 +113,7 @@ ggplot() +
   geom_line(data = plants_long, aes(x, coeff, color= Gender))  +
   xlab("Cooking frequency") + 
   ylab("Total Number of Plants") +
-  theme_ipsum(axis_title_size = 13, axis_text_size = 12) + theme(legend.text = element_text(size = 13)) +
+  theme_ipsum(axis_title_size = 11, axis_text_size = 9) + theme(legend.text = element_text(size = 11)) +
   scale_color_manual(values = c( "#00798c",  "#d1495b", "#00798c","#d1495b")) 
   
 
