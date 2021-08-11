@@ -113,9 +113,19 @@ ggplot() +
   geom_line(data = plants_long, aes(x, coeff, color= Gender))  +
   xlab("Cooking frequency") + 
   ylab("Total Number of Plants") +
-  theme_ipsum(axis_title_size = 11, axis_text_size = 9) + theme(legend.text = element_text(size = 11)) +
+  theme_ipsum(axis_title_size = 12, axis_text_size = 11) + theme(legend.text = element_text(size = 12)) +
   scale_color_manual(values = c( "#00798c",  "#d1495b", "#00798c","#d1495b")) 
-  
+ggsave("Figure 1_font.png")
+
+
+ggplot() + 
+  geom_point(data = df0, aes(x = Freq_cooking, y = N_Pl_total, color = Gender)) +
+  geom_line(data = plants_long, aes(x, coeff, color= Gender))  +
+  xlab("Cooking frequency") + 
+  ylab("Total Number of Plants") +
+  theme_ipsum() +
+  scale_color_manual(values = c( "#00798c",  "#d1495b", "#00798c","#d1495b")) 
+ggsave("Figure 1.png")
 
 ```
 
