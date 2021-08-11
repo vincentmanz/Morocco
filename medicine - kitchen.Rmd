@@ -64,7 +64,7 @@ df0 %>%
   ylab("Total Number of Plants") +
   xlab("Gender") +
   ggtitle("Number of plants according to the gender - box plot")
-
+ 
 ```
 
 
@@ -87,13 +87,12 @@ plants_long <- plants %>%
  
 ```{r scatter plot trend line, layout="l-body-outset", fig.align="center", fig.width=8, fig.height=6}
 
-
 ggplot() + 
   geom_point(data = df0, aes(x = Freq_cooking, y = N_Pl_total, color = Gender)) +
   geom_line(data = plants_long, aes(x, coeff, color= Gender))  +
   xlab("Cooking frequency") + 
   ylab("Total Number of Plants") +
-  theme_ipsum(axis_title_size = 11) +
+  theme_ipsum(axis_title_size = 13) +
   scale_color_manual(values = c( "#00798c",  "#d1495b", "#00798c","#d1495b")) 
   
 
