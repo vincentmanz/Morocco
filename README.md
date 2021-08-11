@@ -1,6 +1,6 @@
 
 <p align="center">
-<img width="1200" height="800" src="https://github.com/vincentmanz/Morocco/blob/master/spices.jpg?raw=true">
+<img width="800" height="600" src="https://github.com/vincentmanz/Morocco/blob/master/spices.jpg?raw=true">
 </p>
 
 # Medicines in the kitchen: Gender roles shape ethnobotanical knowledge in Marrakshi households
