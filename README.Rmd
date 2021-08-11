@@ -3,7 +3,7 @@ output: github_document
 ---
 
 <center>
-![trade routes](https://github.com/vincentmanz/Morocco/spices.jpg)
+![trade routes](https://github.com/vincentmanz/Morocco/blob/master/spices.jpg)
 </center>
 
 

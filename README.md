@@ -1,7 +1,7 @@
 
 <center>
 ![trade
-routes](https://github.com/vincentmanz/Morocco/spices.jpg "fig:")
+routes](https://github.com/vincentmanz/Morocco/blob/master/spices.jpg "fig:")
 </center>
 
 # Medicines in the kitchen: Gender roles shape ethnobotanical knowledge in Marrakshi households
