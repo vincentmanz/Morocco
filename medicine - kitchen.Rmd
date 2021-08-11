@@ -115,7 +115,7 @@ ggplot() +
   ylab("Total Number of Plants") +
   theme_ipsum(axis_title_size = 12, axis_text_size = 11) + theme(legend.text = element_text(size = 12)) +
   scale_color_manual(values = c( "#00798c",  "#d1495b", "#00798c","#d1495b")) 
-ggsave("Figure 1_font.png")
+ggsave("Figure_1_font_big.png")
 
 
 ggplot() + 
@@ -125,7 +125,7 @@ ggplot() +
   ylab("Total Number of Plants") +
   theme_ipsum() +
   scale_color_manual(values = c( "#00798c",  "#d1495b", "#00798c","#d1495b")) 
-ggsave("Figure 1.png")
+ggsave("Figure_1_font_small.png")
 
 ```
 
