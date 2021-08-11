@@ -5,8 +5,12 @@
 
 # Medicines in the kitchen: Gender roles shape ethnobotanical knowledge in Marrakshi households
 
-<br> \#\# Authors Irene Teixidor-Toneu1, Sara Elgadi2, Hamza Zine2,
-Vincent Manzanilla3, Ahmed Ouhammou2, Ugo D’Ambrosio4,5
+<br>
+
+## Authors
+
+Irene Teixidor-Toneu1, Sara Elgadi2, Hamza Zine2, Vincent Manzanilla3,
+Ahmed Ouhammou2, Ugo D’Ambrosio4,5
 
 1 Natural History Museum, University of Oslo, Norway  
 2 Laboratory of Microbial Biotechnology, Agrosciences and Environment,

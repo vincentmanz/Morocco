@@ -11,7 +11,9 @@ output: github_document
 
 
 <br>
+
 ## Authors
+
 Irene Teixidor-Toneu1, Sara Elgadi2, Hamza Zine2, Vincent Manzanilla3, Ahmed Ouhammou2, Ugo D’Ambrosio4,5  
 
 1 Natural History Museum, University of Oslo, Norway  
